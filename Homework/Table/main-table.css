@@ -1,0 +1,20 @@
+.content h1 {
+    color: #34495e;
+    
+}
+
+.content__table{
+
+border-radius: 6px;
+background-color: #34495e;
+color: #fff;
+border-collapse: collapse;
+overflow: hidden;
+
+}
+
+.content__table th,
+.content__table td{
+   padding: 5px;
+   border: 1px solid black;
+}
