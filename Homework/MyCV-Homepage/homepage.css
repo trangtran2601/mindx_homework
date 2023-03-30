@@ -1,0 +1,57 @@
+
+
+:root {
+    --primary-color: rgb(106,141,143);
+    --text-color: #080808;
+    
+}
+
+.resume__title{
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    width: 80%;
+    background-color: rgb(223, 238, 240);
+}
+
+.header, .content{
+    border-bottom: 5px dashed #4c6566;
+}
+
+.homepage__section{
+    padding: 20px 0 12px;
+}
+.homepage__heading{
+    font-size: 30px;
+    margin: 0;
+}
+
+.homepage__username{
+    font-size: 24px;
+    margin: 14px 0 20px;
+}
+
+.homepage__header-avatar{
+    border-radius: 50%;
+}
+
+.content__section-heading{
+    margin: 0;
+    font-size: 18px;
+}
+
+.content__section:last-child ul {
+    margin-bottom: 0;
+}
+
+.content__section-icon {
+    width: 20px;
+    margin-bottom: -2px ;
+}
