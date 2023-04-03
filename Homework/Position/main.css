@@ -1,0 +1,90 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+
+html{
+   height: 100%;
+}
+
+body{
+    min-height: 200vh;
+}
+
+.content{
+    position: relative;  
+    height: 100vh;
+}
+
+.big-box1, .big-box2, .big-box3, .big-box4{
+    width: 100px;
+    height: 100px;
+  
+}
+
+.big-box1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: brown;
+}
+.big-box2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: yellow;
+}
+.big-box3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+}
+.big-box4{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: green;
+}
+
+
+.small-box1, .small-box2, .small-box3, .small-box4, .small-box5{
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+}
+
+.small-box1{
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    
+}
+.small-box2{
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    
+}
+.small-box3{
+    position: fixed;
+    bottom: 100px;
+    left: 100px;
+    
+}
+.small-box4{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    
+}
+
+.small-box5{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
